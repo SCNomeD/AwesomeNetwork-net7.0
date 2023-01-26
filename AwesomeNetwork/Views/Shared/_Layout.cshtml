@@ -13,13 +13,15 @@
 </head>
 <body class="background-main">
     <header class="border-bottom header background-white">
-        <div class="container">
-            <div class="topnav">
-                <a asp-area="" asp-controller="Home" asp-action="Index">SocialNetwork</a>
-                <partial name="_SearchLayoutPartial" />
-                <partial name="_LogoutPartial" />
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <a asp-area="" asp-controller="Home" asp-action="Index">SocialNetwork</a>
+                    <partial name="_SearchLayoutPartial" />
+                    <partial name="_LogoutPartial" />
+                </div>
             </div>
-        </div>
+        </nav>
     </header>
     <div class="container background-main">
         <main role="main" class="pb-3">
